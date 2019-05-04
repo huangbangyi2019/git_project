@@ -7,7 +7,7 @@ public class StudentModel {
 	private String password; // 密码
 	private int sex; // 性别
 	private String love; // 爱好
-	private int age;
+	private int age;// 年龄
 	public StudentModel(int id, String username, String password, int sex, String love, int age) {
 		super();
 		this.id = id;
