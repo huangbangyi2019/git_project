@@ -7,14 +7,23 @@ public class StudentModel {
 	private String password; // 密码
 	private int sex; // 性别
 	private String love; // 爱好
-	
-	public StudentModel(int id, String username, String password, int sex, String love) {
+	private int age;
+	public StudentModel(int id, String username, String password, int sex, String love, int age) {
 		super();
 		this.id = id;
 		this.username = username;
 		this.password = password;
 		this.sex = sex;
 		this.love = love;
+		this.age = age;
+	}
+
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
 	}
 
 	public int getId() {
